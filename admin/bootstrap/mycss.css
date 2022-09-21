@@ -1,0 +1,84 @@
+ .bgimg {
+  /* Background image */
+ background-image: url(../images/c.jpg);
+  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: rgb(15, 15, 15);
+  /* Add a font */
+  font-family: sans-serif;
+  /* Set the font-size to 25 pixels */
+  font-size: 25px;
+  
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+  
+}
+/* Set a style for all buttons */
+button {
+  background-color:lightblue;
+  color: rgb(10, 10, 10);
+  padding: 14px 20px;
+  margin: 5px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Add padding to containers */
+.container {
+  padding: px;
+margin-top: 20%;
+  
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  
+  padding: 20px;
+  text-align: center;
+  background-color: transparent;
+  color: rgb(24, 23, 23);
+  border-radius: 20px;
+
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background:transparent;
+  
+  color: navy;
+}
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+  width: 50%;
+}
